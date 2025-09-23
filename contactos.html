@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <h1>Login</h1>
+    <title>Contacto</title>
+    <h1>Contacto</h1>
     <a href="/index.html">Volver</a>
     <link rel="stylesheet" href="formulario.css">
 </head>
@@ -12,16 +12,19 @@
     <img src="/imagenes/gatogalatico.jpg" alt="">
 </header>
 <body>
-
-<form action="" method="" enctype="" name="">
+<form action="/index.html" method="GET" enctype="multipart/form-data" name="contactos">
     <h1>Ingrese los datos</h1>
-<input type="text" name="Nombre" placeholder="Nombre Completo" >
-<input type="text" name="Correo" placeholder="Correo Electronico">
-<input type="text" name="Usuario" placeholder="Nombre de Usuario" >
-<input type="password" name="Contraseña" placeholder="Contraseña" >
-<input type="password" name="Repetir contraseña" placeholder="Repetir Contraseña" >
-    <label for="Fecha de nacimiento"></label>
-    <select name="Mes" id="Mes">
+<label for="Nombre">Ingrese el numero completo</label>    
+<input type="text" name="Nombre" value="" placeholder="Nombre completo">
+<label for="Correo">Ingrese correo Electronico</label>
+<input type="text" name="Correo" value="" placeholder="Correo Electronico">
+<input type="password" name="Contraseña" value="" placeholder="Contraseña" >
+<input type="password" name="Repetir contraseña" value="" placeholder="Repetir Contraseña" >
+<label for="Usuario">Ingrese el nombre de usuario</label>
+<input type="text" name="Usuario" value="" placeholder="Nombre de Usuario" >
+
+<label for="Fecha de nacimiento">Fecha de nacimiento</label>
+    <select name="Mes">
         <option value="Enero">Enero</option>
         <option value="Febrero">Febrero</option>
         <option value="Marzo">Marzo</option>
@@ -35,7 +38,6 @@
         <option value="Noviembre">Noviembre</option>
         <option value="Diciembre">Diciembre</option>
 </select>
-<label for="Año"></label>
 <select name="Año">
     <option value="2024">2024</option>
     <option value="2023">2023</option>
@@ -103,7 +105,6 @@
     <option value="1961">1961</option>
     <option value="1960">1960</option>
 </select>
-<label for="Dia"></label>
 <select name="Dia">
 <option value="1">1</option>
 <option value="2">2</option>
@@ -137,5 +138,8 @@
 <option value="30">30</option>
 <option value="31">31</option>   
 </select>
+<input type="submit" name="Enviar">
+<input type="reset" name="Borrar">
 </form>
+<textarea cols="5" rows="5"></textarea>
 </body>
