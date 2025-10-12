@@ -8,6 +8,7 @@
     <a href="/index.html">Volver</a>
     <link rel="stylesheet" href="/files/CSS/formulario.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/files/JS/contactos.js"></script>
 </head>
 </head>
 <header>
@@ -17,13 +18,14 @@
 <form action="/files/files/HTML/contactos.html" method="GET" enctype="multipart/form-data" name="contactos">
     <h1>Ingrese los datos</h1>
 <label for="Nombre">Ingrese el numero completo</label>    
-<input type="text" name="Nombre" value="" placeholder="Nombre completo">
+<input type="text" name="Nombre" value="" placeholder="Nombre completo" id="nombre">
 <label for="Correo">Ingrese correo Electronico</label>
-<input type="text" name="Correo" value="" placeholder="Correo Electronico">
-<input type="password" name="Contraseña" value="" placeholder="Contraseña" >
-<input type="password" name="Repetir contraseña" value="" placeholder="Repetir Contraseña" >
+<input type="text" name="Correo" value="" placeholder="Correo Electronico" id="email">
+<input type="password" name="Contraseña" value="" placeholder="Contraseña" id="password">
+<input type="password" name="Repetir contraseña" value="" placeholder="Repetir Contraseña" id="repassword">
 <label for="Usuario">Ingrese el nombre de usuario</label>
-<input type="text" name="Usuario" value="" placeholder="Nombre de Usuario" >
+<input type="text" name="Usuario" value="" placeholder="Nombre de Usuario" id="usuario">
+
 <label for="Fecha de nacimiento">Fecha de nacimiento</label>
     <select name="Mes">
         <option value="Enero">Enero</option>
@@ -139,8 +141,9 @@
 <option value="30">30</option>
 <option value="31">31</option>   
 </select>
-<input type="submit" name="Enviar">
+<input type="submit" name="Enviar" onclick="contactos()" value="Enviar">
 <input type="reset" name="Borrar">
 </form>
 <textarea cols="5" rows="5"></textarea>
 </body>
+</html>
