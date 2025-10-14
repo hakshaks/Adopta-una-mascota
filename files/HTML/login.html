@@ -7,20 +7,22 @@
     <h2>Login</h2>
     <a href="/index.html">Volver</a>
     <link rel="stylesheet" href="/files/CSS/login.css">
-    <script type="text/javascript" src="files/JS/a.js"></script>
+    <script type="text/javascript" src="/files/JS/a.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
-<header>
-    <div class="form-body">
-    <img src="/imagenes/gatogalatico.jpg" alt="user-login">
-    <form class="formulario" action="" method="GET" enctype="multipart/form-data" name="login" id="login">
-        <h1>Iniciar Sesion</h1>
-<input type="text" id="usuario" name="usuario">
-<span id="error-usuario" style="color:red"></span>
-<input type="password" id="contraseña" name="contraseña">
-<span id="error-contraseña" style="color:red"></span>
-<input type="button" value="Iniciar Sesion" onclick="validar();">
-    </form>
+<body>
+    <h1>Iniciar Sesión</h1>
+    <a href="/index.html">Volver</a>
+    <img src="/imagenes/gatogalatico.jpg" alt="user-login" width="200" height="200">
+<form id="login">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" name="usuario">
+    <span id="error-usuario" ></span><br>
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña">
+    <span id="error-contraseña"></span><br>
+    <button type="submit">Iniciar Sesión</button>
+</form>
     </div>
     <div class="registrarse">
         <p>¿No tienes una cuenta?</p>
@@ -28,16 +30,14 @@
    </div>
    <div class="container">
     <div class="row">
-        <form> 
+        <form id="suma"> 
             <label>Suma de dos numeros capcha</label><br>
             <input type="text" id="valor1" placeholder="Valor 1">
             <input type="text" id="valor2" placeholder="Valor 2">
-            <input type="button" value="Sumar" onclick="suma();">
-            <input type="text" id="resultado" placeholder="Resultado">
-            
+            <button type="submit" onclick="suma()">Sumar</button>
+            <input type="text" id="resultado" placeholder="Resultado"> 
         </form>
     </div>
    </div>
-</header>
 </body>
 </html>

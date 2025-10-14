@@ -67,3 +67,7 @@ a {
     color: #4c4eaf;
     text-decoration: none;
 }
+span {
+    color: red;
+    font-size: 14px;
+}
