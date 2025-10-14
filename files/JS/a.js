@@ -14,8 +14,6 @@ function login() {
     const user = document.getElementById("usuario");
     const form = document.getElementById("login");
     const pass = document.getElementById("contraseña");
-    const errorUsuario = document.getElementById("error-usuario");
-    const errorContraseña = document.getElementById("error-contraseña");
     const caracterInvalido = /[^a-zA-Z0-9]/;
     form.addEventListener("submit", (e) => {
         e.preventDefault();
