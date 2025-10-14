@@ -62,4 +62,5 @@ img{
     box-shadow: 5px 5px 5px grey;
     position: relative;
     left: 50%;
+    transform: translateX(-50%);
 }
