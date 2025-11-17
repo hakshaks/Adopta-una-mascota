@@ -1,0 +1,12 @@
+[ 
+    {"nombre":"Ana","edad":28,"correo":"anita@gmail.com"},
+    {"nombre":"Luis","edad":30,"correo":"luisito@gmail.com"},
+    {"nombre":"Maria","edad":25,"correo":"maria@gmail.com"},
+    {"nombre":"Carlos","edad":35,"correo":"carlitoos@gmail.com"},
+    {"nombre":"Ramon","edad":18,"correo":"ramonito@gmail.com"},
+    {"nombre":"Lucas","edad":35,"correo":"lucardito@gmail.com"},
+    {"nombre":"Sofia","edad":22,"correo":"sofilosofica@gmail.com"},
+    {"nombre":"Elena","edad":29,"correo":"elen5845@gmail.com"},
+    {"nombre":"Diego","edad":31,"correo":"diegomaradona@gmail.com"},
+    {"nombre":"Valentina","edad":27,"correo":"sanvalentinita@gmail.com"}
+]
